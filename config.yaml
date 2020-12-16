@@ -1,0 +1,10 @@
+cmd:
+  port: 8080
+  verbose: true
+replacements:
+  - source: localhost:8080
+    target: target.domain.net
+    path: /
+  - source: source2.domain
+    target: target.domain2.net
+    path: /validation
